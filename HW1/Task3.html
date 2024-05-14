@@ -5,7 +5,7 @@
         <title>Full teacher card</title>
     </head>
 
-    <body>
+    <body data-background-color="cyan">
         <full-teacher-card>
             <img src="Utils/teacher.png" alt="Teacher" style="width:auto" />
             <br/>
@@ -55,5 +55,10 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254130.34125531714!2d30.316229282349574!3d50.431782798919696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47215c2f0d6a52bf%3A0x4f71e9ea10c4652e!2sKyiv%2C%20Ukraine!5e0!3m2!1sen!2sua!4v1620110910305!5m2!1sen!2sua" width="300" height="300"></iframe>
             </Location>
         </full-teacher-card>
+
+        <script>    
+            let body = document.body
+            body.style.backgroundColor = body.dataset.backgroundColor;
+        </script>
     </body>
 </html> 
